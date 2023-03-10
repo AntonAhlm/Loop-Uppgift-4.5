@@ -7,7 +7,7 @@ namespace Program
         static void Main(string[] args)
         {
 
-            Console.WriteLine("skriv in ett heltal");
+            Console.WriteLine("skriv in ett heltal : ");
             string heltal = Console.ReadLine();
             
            
@@ -21,12 +21,12 @@ namespace Program
                     if (siffra == 9)
                     {
                         int tal = 0;
-                        Console.WriteLine(tal);
+                        Console.Write(tal);
                     }
                     else
                     {
                         int tal = siffra + 1;
-                        Console.WriteLine(tal);
+                        Console.Write(tal);
                     }
                 }
         }
